@@ -21,6 +21,11 @@
 
 @implementation ViewController
 
+/** github Desktop测试 */
+- (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"github Desttop come");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
